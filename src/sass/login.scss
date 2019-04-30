@@ -1,0 +1,246 @@
+html,
+body {
+    width: 100%;
+}
+
+#login {
+    width: 100%;
+
+}
+
+#head {
+
+    .container {
+        // height: 80px;
+        // background: yellow;
+
+        a {
+            display: block;
+            width: 300px;
+            height: 60px;
+            background: url('../images/logo.png') no-repeat;
+            background-size: cover;
+            margin: 10px;
+        }
+
+    }
+}
+
+// -----main------------
+#main {
+    background:#077917;
+    p {
+        text-align: center;
+        font-size: 12px;
+        color: #999;
+        padding: 10px 0;
+        background: #fff8f0;
+    }
+
+    .container {
+        height: 500px;
+        background: #077917;
+        position: relative;
+        
+        .pic{
+            display: block;
+            width:440px;
+            height: 440px;
+            background:url('../images/login.png') no-repeat;
+            position: absolute;
+            top: 0;
+            left: 200px;
+        }
+        .login {
+            margin-top: 10px;
+            margin-right: 10px;
+            width: 350px;
+            height: 427px;
+            background: #fff;
+
+            p {
+                text-align: center;
+                font-size: 12px;
+                color: #999;
+                line-height: 20px;
+                background: #fff8f0;
+            }
+
+            .tab {
+                text-align: center;
+                line-height: 55px;
+                border-bottom: 1px solid #f4f4f4;
+
+                .tab_l {
+                    width: 50%;
+                    height: 55px;
+
+                    span {
+                        color: #666;
+                        font-size: 18px;
+                        border-right: 1px solid #f4f4f4;
+                        padding: 0 50px;
+                    }
+                }
+
+                .tab_r {
+                    width: 50%;
+                    height: 55px;
+
+                    span {
+                        color: #666;
+                        font-size: 18px;
+                        // font-weight: bold;
+                    }
+                }
+            }
+
+
+            .box_1 {
+                .qrCode {
+                    margin: 40px auto 20px;
+                    width: 150px;
+                    height: 150px;
+                    background: url('../images/code1.png');
+                    background-size: cover;
+
+
+                }
+
+                .pic {
+                    // height: 80px;
+                    display: block;
+                    margin-bottom: 20px;
+                    // background: red;
+
+                }
+            }
+
+            .box_2 {
+                display: none;
+
+                .tip {
+                    display: none;
+                    width: 300px;
+                    margin: 0 auto;
+                    color: red;
+                    text-align: center;
+                }
+
+                form {
+                    width: 300px;
+                    height: 192px;
+                    margin: 40px auto 20px;
+                    display: block;
+                    // background: red;
+                    position: relative;
+                    text-align: center;
+
+                    .uname_label,
+                    .psw_label {
+                        position: absolute;
+                        top: 0;
+                        left: 23px;
+                        width: 38px;
+                        height: 38px;
+                        border-right: 1px solid #bdbdbd;
+
+                    }
+
+                    .uname,
+                    .psw {
+                        line-height: 18px;
+                        height: 38px;
+                        border: 0;
+                        padding: 10px 0 10px 50px;
+                        width: 254px;
+                        float: none;
+                        overflow: hidden;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        border: 1px solid #bdbdbd
+                    }
+
+                    .psw_label {
+
+                        top: 58px;
+
+
+                    }
+
+                    a {
+                        display: block;
+                        text-align: right;
+                        margin-right: 20px;
+                        color: #666;
+
+                        &:hover {
+                            text-decoration: underline;
+                            color: #E4393C;
+                        }
+                    }
+
+                    .btn {
+                        // border: 1px solid #cb2a2d;
+                        margin: 20px auto 40px;
+                        height: 32px;
+                        padding-top: 20px;
+                        border-top: 1px solid #ccc;
+                        width: 254px;
+
+                        a {
+                            border: 1px solid #e85356;
+                            display: block;
+                            background: #e4393c;
+                            height: 31px;
+                            line-height: 31px;
+                            color: #fff;
+                            font-size: 20px;
+                            margin-right: 0;
+                            text-align: center;
+                            text-decoration: none;
+                        }
+
+                        // position: relative;
+                    }
+
+                }
+
+
+
+            }
+
+
+            .bottom {
+                // background: red;
+                width: 300px;
+                margin: 0 auto;
+                text-align: center;
+
+                .pic {
+                    height: 50px;
+                    line-height: 50px;
+                    width: 100px;
+                    background: skyblue;
+                }
+
+                .zhuce {
+                    line-height: 50px;
+                    text-align: right;
+                    font-size: 16px;
+
+                    a {
+                        color: #b61d1d;
+
+                    }
+                }
+            }
+
+
+
+
+        }
+
+    }
+}
+

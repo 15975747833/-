@@ -1,0 +1,743 @@
+html,
+body {
+    width: 100%;
+}
+
+#fresh {
+    width: 100%;
+    min-width: 1190px;
+}
+
+#shortcut {
+    /*height: 30px;*/
+    background: #E3E4E5;
+    color: #999;
+}
+
+#shortcut .container {}
+
+#shortcut .container .shortcut_l li {
+    float: left;
+    position: relative;
+}
+
+#shortcut .container .shortcut_l li a {
+    display: inline-block;
+    padding-right: 10px;
+    color: #999;
+    text-decoration: none;
+
+}
+
+#shortcut .container .shortcut_l li a span {
+    line-height: 30px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address {
+    width: 314px;
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    padding: 10px 0 10px 10px;
+    display: none;
+    z-index: 100;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address:after {
+    content: "";
+    display: block;
+    width: 282px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 143px;
+
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province {
+    padding-bottom: 10px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province li {
+    float: left;
+    width: 60px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province li>a {
+    float: left;
+    padding: 2px 8px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address p {
+    padding: 0 8px;
+    margin: 8px 0px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .country li {
+    float: left;
+    width: 140px;
+    height: 26px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .country li i {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background: red;
+}
+
+/*hover  --------------------*/
+#shortcut .container .shortcut_l li:nth-child(2):hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2):hover .address {
+    display: block;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province li a:hover {
+    background: #F4F4F4;
+    border-radius: 2px;
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .country li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r li {
+    float: left;
+    position: relative;
+}
+#shortcut .container .shortcut_r .name{
+    display:block;
+    width:150px;
+    height: 30px;
+}
+#shortcut .container .shortcut_r li>a {
+    color: #999;
+    border-left: 1px solid #ccc;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+#shortcut .container .shortcut_r li>a span {
+    text-align: center;
+    line-height: 30px;
+}
+
+#shortcut .container .shortcut_r li:nth-child(1)>a,
+#shortcut .container .shortcut_r li:nth-child(2)>a {
+    border-left: 1px solid #E3E4E5;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: 0 none;
+    width: 280px;
+    display: none;
+    z-index: 100;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_t {
+    padding: 5px 0 5px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_t li {
+    float: left;
+    width: 126px;
+    height: 26px;
+    line-height: 26px;
+
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_t li a {
+    border: 0 none;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_b {
+    padding: 5px 0 5px 15px;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_b li {
+    float: left;
+    width: 126px;
+    height: 26px;
+    line-height: 26px;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_b li a {
+    border: 0 none;
+}
+
+/*hover   ----------------------*/
+#shortcut .container .shortcut_r .myjd:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .myjd:hover a {
+    border-left: 1px solid #fff;
+}
+
+#shortcut .container .shortcut_r .myjd:hover .myjd_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detial .myjd_t li a:hover,
+#shortcut .container .shortcut_r .myjd .myjd_detial .myjd_b li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail {
+    width: 150px;
+    padding: 10px 0 10px 15px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background: #fff;
+    display: none;
+    z-index: 100;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail li {
+    float: left;
+    width: 60px;
+    line-height: 24px;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail li a {
+    padding: 0px;
+    border: 0 none;
+}
+
+/*hover  ------*/
+#shortcut .container .shortcut_r .buy:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .buy:hover a {
+    border-left: 1px solid #fff;
+}
+
+#shortcut .container .shortcut_r .buy:hover .buy_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .server .server_detail {
+    width: 170px;
+    position: absolute;
+    top: 30px;
+    background: #fff;
+    padding: 10px 0;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+    display: none;
+    z-index: 100;
+}
+
+#shortcut .container .shortcut_r .server .server_detail p {
+    padding-left: 10px;
+    color: #666;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t {
+    border-bottom: 1px solid #ccc;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t li,
+#shortcut .container .shortcut_r .server .server_detail .server_b li {
+    float: left;
+    padding-left: 10px;
+    line-height: 24px;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t li a,
+#shortcut .container .shortcut_r .server .server_detail .server_b li a {
+    border: 0 none;
+    padding: 0;
+}
+
+/*hover  ---------------*/
+#shortcut .container .shortcut_r .server:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .server:hover a {
+    border-left: 1px solid #fff;
+}
+
+#shortcut .container .shortcut_r .server:hover .server_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t li a:hover,
+#shortcut .container .shortcut_r .server .server_detail .server_b li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .website .website_detail {
+    position: absolute;
+    top: 30px;
+    right: -69px;
+    background: #fff;
+    width: 1210px;
+    padding: 20px 0 16px;
+    display: none;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+    z-index: 100;
+}
+
+#shortcut .container .shortcut_r .website .website_detail dl {
+    float: left;
+    width: 280px;
+    border-left: 1px solid #eee;
+    padding-left: 20px;
+}
+
+#shortcut .container .shortcut_r .website .website_detail dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#shortcut .container .shortcut_r .website .website_detail dl dd .item {
+    float: left;
+    line-height: 24px;
+    width: 86px;
+}
+
+#shortcut .container .shortcut_r .website .website_detail .fore1 {
+    border-left: 0 none;
+    width: 367px;
+}
+
+#shortcut .container .shortcut_r .website .website_detail dl dd div a {
+    color: #666;
+}
+
+#shortcut .container .shortcut_r .website:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .website .website_detail dl dd div a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .website:hover .website_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail {
+    width: 190px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background: #fff;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+    z-index: 100;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item {
+    height: 101px;
+    padding: 15px 0;
+    border-bottom: 1px solid #E7E7E7;
+    position: relative;
+    display: none;
+
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_img {
+    position: absolute;
+    left: 5px;
+    top: 14px;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #CCC;
+    background-color: #F7F7F7;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info {
+    margin: 0 10px 0 86px;
+    min-height: 70px;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info h5 {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #666;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info h5 a {
+    color: #666;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info .mobile_value {
+    margin: 3px 0;
+    line-height: 14px;
+    color: #F10214;
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info .mobile_device {
+    overflow: hidden;
+    height: 25px;
+
+}
+
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info .mobile_device a {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-indent: -999px;
+    background: red;
+}
+
+#shortcut .container .shortcut_r .mobile:hover {
+    background: #fff;
+
+}
+
+#shortcut .container .shortcut_r .mobile:hover .mobile_detail {
+    display: block;
+}
+
+#shortcut .container>ul>li>a:hover>span {
+    color: #f30213;
+}
+
+/*------------------head---------------------*/
+#head {
+    // height: 122px;
+    // background: red;
+
+    .container {
+        padding-top: 42px;
+
+        .logo {
+            width: 204px;
+            height: 42px;
+            background:url('../images/logo.png') no-repeat;
+            margin-bottom: 22px;
+
+            h1 {
+                text-indent: -100em;
+
+            }
+        }
+
+        .search {
+            width: 450px;
+            height: 40px;
+            // background: green;
+            margin: 0 0 0 155px;
+
+            .search_box {
+                input {
+                    width: 370px;
+                    height: 36px;
+                    padding: 4px;
+                    border: 2px solid #00c65d;
+                    border-right: 0 none;
+                    font-size: 14px;
+                    color: #999;
+                }
+
+                button {
+                    width: 80px;
+                    height: 36px;
+                    background: #00c65d;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+
+            .hotwords {
+                a {
+                    color: #999;
+                    margin-right: 10px;
+                    font-size: 14px;
+                    line-height: 24px;
+
+                    &:hover {
+                        color: #00c65d;
+                    }
+                }
+            }
+        }
+
+        .gouwu {
+            margin-left: 30px;
+            width: 138px;
+            height: 36px;
+            border: 1px solid #DFDFDF;
+            line-height: 36px;
+            position: relative;
+            background: #F9F9F9;
+
+            &:hover {
+                background: #fff;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+                &:after {
+                    content: "";
+                    width: 136px;
+                    height: 8px;
+                    background: #fff;
+                    position: absolute;
+                    top: 30px;
+                    left: 0px;
+                }
+
+                .gouwu_detail {
+                    display: block;
+                }
+
+            }
+
+            // background: yellow;
+            i:first-child {
+                display: block;
+                width: 18px;
+                height: 18px;
+                position: absolute;
+                left: 12px;
+                top: 8px;
+                background: red;
+            }
+
+            span {
+                padding: 0 30px 0 42px;
+            }
+
+            i.num {
+                width: 16px;
+                height: 16px;
+                background: #da1026;
+                border-radius: 50%;
+                position: absolute;
+                right: 0;
+                top: -10px;
+                color: #fff;
+                padding: 0px;
+                line-height: 16px;
+                text-align: center;
+            }
+
+            .gouwu_detail {
+                width: 308px;
+                background: #fff;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                right: -1px;
+                top: 35px;
+                padding: 10px 15px;
+                display: none;
+
+                div {
+                    margin-left: 60px;
+                    height: 50px;
+                    line-height: 50px;
+
+                    i {
+                        display: block;
+                        float: left;
+                        width: 56px;
+                        height: 50px;
+                        background: red;
+                    }
+                }
+            }
+        }
+
+        .qrCode {
+            width: 120px;
+            height: 36px;
+            margin-left: 19px;
+            position: relative;
+            border: 1px solid #DFDFDF;
+            background: #F9F9F9;
+
+            &:hover {
+                .qrCode_detail {
+                    display: block;
+                }
+            }
+
+            i {
+                display: block;
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                left: 2px;
+                top: 6px;
+                background: url('../images/code1.png');
+            }
+
+            span {
+                text-align: center;
+                line-height: 34px;
+                color: #232321;
+                padding-left: 30px;
+            }
+
+            .qrCode_detail {
+                width: 120px;
+                height: 120px;
+                border: 1px solid #dfdfdf;
+                padding: 5px;
+                position: absolute;
+                top: 34px;
+                left: -1px;
+                display: none;
+                background: url('../images/code1.png') no-repeat;
+                background-position: center;
+                z-index: 100;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    background: #00C65D;
+
+    // height: 480px;
+    .container {
+        .footer_t {
+            height: 135px;
+            border-bottom: 1px solid #666;
+
+            li {
+                width: 20%;
+                float: left;
+                // margin: 0 30px;
+                position: relative;
+                padding: 50px 0 40px;
+
+                &:last-child {
+                    .item {
+                        border-right: 0 none;
+                    }
+
+                }
+
+                i {
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    // background: red;
+                    position: absolute;
+                    left: 6px;
+                    top: 57px;
+                    font-size: 28px;
+                }
+
+                .item {
+                    padding-left: 50px;
+                    border-right: 1px solid hsla(0, 0%, 100%, .5);
+                    margin-right: 30px;
+
+                    h5 {
+                        font-size: 18px;
+                        color: #fff;
+                        line-height: 1.5;
+                    }
+
+                    p {
+                        color: hsla(0, 0%, 100%, .5);
+
+                    }
+
+                }
+            }
+        }
+
+        .footer_b {
+            padding-top: 40px;
+
+            .qrCode {
+                li {
+                    margin-right: 60px;
+                    float: left;
+
+                    img {
+                        width: 140px;
+                        height: 140px;
+                        background: url('../images/code1.png');
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        color: #00632e;
+                        line-height: 1.5;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .guide {
+                li {
+                    float: left;
+                    width: 190px;
+
+                    dl {
+                        dt {
+                            font-size: 18px;
+                            margin-bottom: 20px;
+                            color: #fff;
+                        }
+
+                        dd {
+                            font-size: 14px;
+                            margin: 0 0 3px;
+                            color: hsla(0, 0%, 100%, .5);
+                            line-height: 1.5;
+
+                            &:hover {
+                                a {
+                                    color: #fff;
+                                }
+                            }
+
+                            a {
+                                font-size: 14px;
+                                margin: 0 0 3px;
+                                color: hsla(0, 0%, 100%, .5);
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        width: 205px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

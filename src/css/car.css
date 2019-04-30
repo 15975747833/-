@@ -1,0 +1,290 @@
+#main .container {
+  height: 600px;
+  background: skyblue;
+}
+
+#main .container .nologin {
+  border: 1px solid #edd28b;
+  background: #fffdee;
+  padding: 10px 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: #f70;
+}
+
+#main .container .nologin a {
+  height: 25px;
+  line-height: 25px;
+  background-color: #e74649;
+  display: inline-block;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+#main .container .cart .switch-cart {
+  height: 32px;
+}
+
+#main .container .cart .switch-cart .cart-item {
+  float: left;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  padding: 0 0 10px;
+  cursor: pointer;
+  margin: 5px 30px 0 0;
+  border-bottom: 1px solid red;
+}
+
+#main .container .cart .switch-cart .cart-item a {
+  color: #E2231A;
+}
+
+#main .container .cart .switch-cart .cart-item a span {
+  font-size: 14px;
+}
+
+#main .container .cart .cart-thead {
+  display: block;
+  height: 43px;
+  line-height: 32px;
+  margin: 0 0 10px;
+  padding: 5px 0;
+  background: #f3f3f3;
+  border: 1px solid #e9e9e9;
+  border-top: 0;
+  position: relative;
+}
+
+#main .container .cart .cart-thead .column {
+  float: left;
+}
+
+#main .container .cart .cart-thead .t-checkbox {
+  height: 18px;
+  line-height: 18px;
+  padding-top: 7px;
+  width: 122px;
+  padding-left: 11px;
+}
+
+#main .container .cart .cart-thead .t-checkbox .cart-checkbox {
+  position: relative;
+  z-index: 3;
+  float: left;
+  margin-right: 5px;
+}
+
+#main .container .cart .cart-thead .t-checkbox .cart-checkbox label {
+  display: none;
+}
+
+#main .container .cart .cart-thead .t-goods {
+  width: 208px;
+}
+
+#main .container .cart .cart-thead .t-props {
+  height: 32px;
+  padding: 0 10px 0 20px;
+  width: 140px;
+}
+
+#main .container .cart .cart-thead .t-price {
+  width: 120px;
+  padding-right: 40px;
+  text-align: right;
+}
+
+#main .container .cart .cart-thead .t-quantity {
+  width: 80px;
+  text-align: center;
+}
+
+#main .container .cart .cart-thead .t-sum {
+  width: 100px;
+  padding-right: 40px;
+  text-align: right;
+}
+
+#main .container .cart .cart-thead .t-action {
+  width: 75px;
+}
+
+#main .container .cart .cart .cart_list {
+  margin-bottom: 20px;
+}
+
+#main .container .cart .cart .cart_list .shop {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 11px;
+  font-weight: 700;
+}
+
+#main .container .cart .cart .cart_list .shop .cart-checkbox {
+  position: relative;
+  z-index: 3;
+  float: left;
+  margin-right: 5px;
+}
+
+#main .container .cart .cart .cart_list .shop .cart-checkbox input {
+  float: none;
+  position: relative;
+  z-index: 5;
+  vertical-align: middle;
+  margin: 0 3px 0 0;
+  padding: 0;
+}
+
+#main .container .cart .cart .cart_list .shop .cart-checkbox label {
+  display: none;
+}
+
+#main .container .cart .cart .cart_list .shop .shop-txt {
+  float: left;
+  width: 42%;
+}
+
+#main .container .cart .cart .cart_list .shop .shop-txt .shop-name {
+  padding: 0 5px;
+  height: 18px;
+  line-height: 17px;
+  vertical-align: middle;
+  background: #da0012;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+#main .container .cart .cart .cart_list .shop .shop-coupon {
+  float: left;
+  width: 80px;
+  height: 24px;
+  overflow: hidden;
+  margin-left: 1px;
+}
+
+#main .container .cart .cart .cart_list .shop .shop-coupon .shop-coupon-btn {
+  display: block;
+  width: 80px;
+  height: 24px;
+  line-height: 99em;
+  overflow: hidden;
+  border: 1px solid red;
+  color: red;
+}
+
+#main .container .cart .cart .cart_list .shop .shop-extra-r {
+  float: right;
+  font-weight: 400;
+}
+
+#main .container .cart .cart .cart_list .shop .shop-extra-r .fw-info-main {
+  position: relative;
+  display: inline-block;
+}
+
+#main .container .cart .cart .cart_list .item-list {
+  border-style: solid;
+  border-width: 2px 1px 1px;
+  border-color: #aaa #f1f1f1 #f1f1f1;
+  background: #fff;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-header {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  height: 26px;
+  padding: 5px 10px;
+  line-height: 26px;
+  color: #999;
+  display: block;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-header .f-txt {
+  float: left;
+  width: 740px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-header .f-txt a {
+  color: #666;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-header .f-txt a .full-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background: #f48719;
+  border: 1px solid #f48719;
+  color: #fff;
+  padding: 1px 10px;
+  height: 16px;
+  line-height: 16px;
+  margin: 0 10px 0 5px;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-header .f-txt a .full-icon b {
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 6px;
+  left: -1px;
+  bottom: -5px;
+  background: red;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-header .f-txt .ftx-01 {
+  color: #E2231A;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-item {
+  position: relative;
+  padding: 0 0 1px 40px;
+  line-height: 20px;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-item .item-form {
+  border-top: 1px solid #f1f1f1;
+  display: block;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-item .item-form .cell {
+  float: left;
+  padding: 15px 0 10px;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-item .item-form .p-checkbox {
+  position: absolute;
+  z-index: 3;
+  left: 10px;
+  top: 0;
+  width: 30px;
+  min-height: 10px;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-item .item-form .p-checkbox .cart-checkbox {
+  position: relative;
+  z-index: 3;
+  float: left;
+  margin-right: 5px;
+}
+
+#main .container .cart .cart .cart_list .item-list .item-give .item-item .item-form .p-checkbox .cart-checkbox .jdcheckbox {
+  float: none;
+  position: relative;
+  z-index: 5;
+  vertical-align: middle;
+  margin: 0 3px 0 0;
+  padding: 0;
+}

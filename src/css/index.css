@@ -1,0 +1,432 @@
+html,
+body {
+    width: 100%;
+}
+
+#fresh {
+    width: 100%;
+    min-width: 1190px;
+}
+
+#shortcut {
+    /*height: 30px;*/
+    background: #E3E4E5;
+    color: #999;
+}
+
+#shortcut .container {}
+
+#shortcut .container .shortcut_l li {
+    float: left;
+    position: relative;
+}
+
+#shortcut .container .shortcut_l li a {
+    display: inline-block;
+    padding-right: 10px;
+    color: #999;
+    text-decoration: none;
+
+}
+
+#shortcut .container .shortcut_l li a span {
+    line-height: 30px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address {
+    width: 314px;
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    padding: 10px 0 10px 10px;
+    display: none;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address:after {
+    content: "";
+    display: block;
+    width: 282px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 143px;
+
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province {
+    padding-bottom: 10px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province li {
+    float: left;
+    width: 60px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province li>a {
+    float: left;
+    padding: 2px 8px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address p {
+    padding: 0 8px;
+    margin: 8px 0px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .country li {
+    float: left;
+    width: 140px;
+    height: 26px;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .country li i {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background: red;
+}
+
+/*hover  --------------------*/
+#shortcut .container .shortcut_l li:nth-child(2):hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2):hover .address {
+    display: block;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .province li a:hover {
+    background: #F4F4F4;
+    border-radius: 2px;
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_l li:nth-child(2) .address .country li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r li {
+    float: left;
+    position: relative;
+}
+
+#shortcut .container .shortcut_r li>a {
+    color: #999;
+    border-left: 1px solid #ccc;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+#shortcut .container .shortcut_r li>a span {
+    text-align: center;
+    line-height: 30px;
+}
+
+#shortcut .container .shortcut_r li:nth-child(1)>a,
+#shortcut .container .shortcut_r li:nth-child(2)>a {
+    border-left: 1px solid #E3E4E5;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: 0 none;
+    width: 280px;
+    display: none;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_t {
+    padding: 5px 0 5px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_t li {
+    float: left;
+    width: 126px;
+    height: 26px;
+    line-height: 26px;
+
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_t li a {
+    border: 0 none;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_b {
+    padding: 5px 0 5px 15px;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_b li {
+    float: left;
+    width: 126px;
+    height: 26px;
+    line-height: 26px;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detail .myjd_b li a {
+    border: 0 none;
+}
+
+/*hover   ----------------------*/
+#shortcut .container .shortcut_r .myjd:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .myjd:hover a {
+    border-left: 1px solid #fff;
+}
+
+#shortcut .container .shortcut_r .myjd:hover .myjd_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .myjd .myjd_detial .myjd_t li a:hover,
+#shortcut .container .shortcut_r .myjd .myjd_detial .myjd_b li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail {
+    width: 150px;
+    padding: 10px 0 10px 15px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background: #fff;
+    display: none;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail li {
+    float: left;
+    width: 60px;
+    line-height: 24px;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail li a {
+    padding: 0px;
+    border: 0 none;
+}
+
+/*hover  ------*/
+#shortcut .container .shortcut_r .buy:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .buy:hover a {
+    border-left: 1px solid #fff;
+}
+
+#shortcut .container .shortcut_r .buy:hover .buy_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .buy .buy_detail li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .server .server_detail {
+    width: 170px;
+    position: absolute;
+    top: 30px;
+    background: #fff;
+    padding: 10px 0;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+    display: none;
+}
+
+#shortcut .container .shortcut_r .server .server_detail p {
+    padding-left: 10px;
+    color: #666;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t {
+    border-bottom: 1px solid #ccc;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t li,
+#shortcut .container .shortcut_r .server .server_detail .server_b li {
+    float: left;
+    padding-left: 10px;
+    line-height: 24px;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t li a,
+#shortcut .container .shortcut_r .server .server_detail .server_b li a {
+    border: 0 none;
+    padding: 0;
+}
+
+/*hover  ---------------*/
+#shortcut .container .shortcut_r .server:hover {
+    background: #fff;
+}
+
+#shortcut .container .shortcut_r .server:hover a {
+    border-left: 1px solid #fff;
+}
+
+#shortcut .container .shortcut_r .server:hover .server_detail {
+    display: block;
+}
+
+#shortcut .container .shortcut_r .server .server_detail .server_t li a:hover,
+#shortcut .container .shortcut_r .server .server_detail .server_b li a:hover {
+    color: #f30213;
+}
+
+#shortcut .container .shortcut_r .website .website_detail {
+    position: absolute;
+    top: 30px;
+    right: -69px;
+    background: #fff;
+    width: 1210px;
+    padding: 20px 0 16px;
+    display: none;
+    border: 1px solid #E3E4E5;
+    border-top: 0 none;
+}
+
+#shortcut .container .shortcut_r .website .website_detail dl {
+    float: left;
+    width: 280px;
+    border-left: 1px solid #eee;
+    padding-left: 20px;
+}
+#shortcut .container .shortcut_r .website .website_detail dl dt{
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#shortcut .container .shortcut_r .website .website_detail dl dd .item{
+	float: left;
+	line-height: 24px;
+	width: 86px;
+}
+#shortcut .container .shortcut_r .website .website_detail .fore1{
+	border-left: 0 none;
+	width: 367px;
+}
+#shortcut .container .shortcut_r .website .website_detail dl dd div a{
+	color: #666;
+}
+#shortcut .container .shortcut_r .website:hover{
+	background: #fff;
+}
+#shortcut .container .shortcut_r .website .website_detail dl dd div a:hover{
+	color:#f30213;
+}
+#shortcut .container .shortcut_r .website:hover .website_detail{
+	display: block;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail{
+	width: 190px;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	background: #fff;
+	border: 1px solid #E3E4E5;
+    border-top: 0 none;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item{
+    height: 101px;
+	padding: 15px 0;
+    border-bottom: 1px solid #E7E7E7;
+    position: relative;
+    display: none;
+	
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_img{
+	position: absolute;
+    left: 5px;
+    top: 14px;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #CCC;
+    background-color: #F7F7F7;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info{
+	margin: 0 10px 0 86px;
+    min-height: 70px;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info h5{
+	font-size: 12px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #666;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info h5 a{
+    color: #666;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info .mobile_value{
+	margin: 3px 0;
+    line-height: 14px;
+    color: #F10214;
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info .mobile_device{
+	overflow: hidden;
+    height: 25px;
+	
+}
+#shortcut .container .shortcut_r .mobile .mobile_detail .mobile_item .mobile_info .mobile_device a{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-indent: -999px;
+	background: red;
+}
+#shortcut .container .shortcut_r .mobile:hover{
+	background: #fff;
+
+} 
+#shortcut .container .shortcut_r .mobile:hover .mobile_detail{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#head {
+    height: 122px;
+    background: red;
+}
+
+#nav {
+    height: 40px;
+    background: #fff;
+}
+
+#banner {
+    height: 400px;
+    background: #6A0914;
+}
+
+#main {
+    height: 1000px;
+    background: green;
+}
+
+#footer {
+    height: 480px;
+    background: #00C65D;
+}

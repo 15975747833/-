@@ -1,0 +1,331 @@
+#nav {
+  border-bottom: 1px solid red;
+}
+
+#nav .container {
+  height: 35px;
+}
+
+#index .container {
+  padding-left: 24px;
+  /*height: 34px;*/
+  position: relative;
+}
+
+#index .container i {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(../images/productcatalog_sprites.png) no-repeat;
+  position: absolute;
+  left: 6px;
+  top: 9px;
+}
+
+#index .container .nav li {
+  float: left;
+  /*height: 34px;*/
+}
+
+#index .container .nav li:after {
+  content: " > ";
+}
+
+#index .container .nav li:last-child:after {
+  content: "";
+}
+
+#index .container .nav li a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 34px;
+}
+
+#flagshop3 .container .sele {
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+#flagshop3 .container .sele .c_item {
+  position: relative;
+  padding: 10px 0px;
+  border-bottom: 1px solid #DDD;
+}
+
+#flagshop3 .container .sele .c_item .s_left {
+  width: 110px;
+}
+
+#flagshop3 .container .sele .c_item .s_left span {
+  width: 100px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#flagshop3 .container .sele .c_item .s_center {
+  margin-left: 110px;
+  padding-right: 130px;
+  background: #fff;
+}
+
+#flagshop3 .container .sele .c_item .s_center .value_list li {
+  width: 130px;
+  float: left;
+  margin-right: 5px;
+  height: 26px;
+}
+
+#flagshop3 .container .sele .c_item .s_center .value_list li a {
+  overflow: hidden;
+  color: #005aa0;
+  padding-left: 10px;
+}
+
+#flagshop3 .container .sele .c_item .s_center .fruit_list li {
+  width: 130px;
+  float: left;
+  margin-right: 5px;
+  height: 26px;
+}
+
+#flagshop3 .container .sele .c_item .s_center .fruit_list li a {
+  overflow: hidden;
+  color: #005aa0;
+  padding-left: 10px;
+}
+
+#flagshop3 .container .sele .c_item .s_right {
+  width: 110px;
+  position: absolute;
+  border: 1px solid #ccc;
+  top: 5px;
+  right: 10px;
+  width: 70px;
+  text-align: center;
+  color: red;
+  height: auto;
+  line-height: 22px;
+}
+
+#flagshop3 .container .j_main {
+  position: relative;
+  padding-top: 20px;
+}
+
+#flagshop3 .container .j_main .main_l {
+  width: 160px;
+  height: 700px;
+  border: 1px solid #ccc;
+}
+
+#flagshop3 .container .j_main .main_r {
+  height: 1300px;
+  width: 1020px;
+  position: absolute;
+  right: 0;
+}
+
+#flagshop3 .container .j_main .main_r .filter .filter-top {
+  height: 40px;
+  background: #F1F1F1;
+  padding: 6px 8px;
+}
+
+#flagshop3 .container .j_main .main_r .filter .filter-top .f-sort {
+  float: left;
+  margin-right: 13px;
+}
+
+#flagshop3 .container .j_main .main_r .filter .filter-top .f-sort a {
+  float: left;
+  padding: 0 9px;
+  height: 23px;
+  border: 1px solid #CCC;
+  line-height: 23px;
+  margin-right: -1px;
+}
+
+#flagshop3 .container .j_main .main_r .filter .filter-top .f-result-sum {
+  float: right;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 10px;
+  color: #999;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li {
+  float: left;
+  width: 240px;
+  height: 474px;
+  position: relative;
+  z-index: 1;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap {
+  width: 220px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 38px 9px 10px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-img {
+  height: 200px;
+  padding: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-img a {
+  display: block;
+  width: 200px;
+  height: 220px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-img a img {
+  width: 100%;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-price {
+  position: relative;
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 0 8px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-price strong {
+  float: left;
+  margin-right: 10px;
+  color: #e4393c;
+  font-size: 20px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-name {
+  height: 40px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-name a {
+  color: #666;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-commit {
+  width: 100%;
+  height: 18px;
+  margin-top: -3px;
+  margin-bottom: 9px;
+  overflow: hidden;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-commit strong {
+  color: #a7a7a7;
+  font-weight: normal;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-commit strong a {
+  color: #646fb0;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-shop {
+  line-height: 18px;
+  height: 18px;
+  overflow: hidden;
+  margin-top: -3px;
+  margin-bottom: 9px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-shop span {
+  display: inline-block;
+  position: relative;
+  height: 18px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-shop span a {
+  color: #999;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-icons {
+  overflow: hidden;
+  zoom: 1;
+  height: 16px;
+  margin-bottom: 12px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-icons i {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  line-height: 16px\0;
+  padding: 0 3px;
+  border: 1px solid #e23a3a;
+  margin-right: 3px;
+  overflow: hidden;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+  border-radius: 2px;
+  color: #e23a3a;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-operate {
+  margin-bottom: 10px;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-operate .p-o-btn {
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #DDD;
+  padding: 0 3px 0 24px;
+  position: relative;
+  background: #fff;
+  color: #999;
+  display: block;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap .p-operate .p-o-btn:nth-child(3) {
+  color: #e4393c;
+  border: 1px solid #e4393c;
+}
+
+#flagshop3 .container .j_main .main_r .good_list .gl_warp li .gl-i-wrap:hover {
+  border: 1px solid #ccc;
+}
+
+#flagshop3 .container .j_main .main_r .page {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#flagshop3 .container .j_main .main_r .page .p-wrap {
+  float: right;
+}
+
+#flagshop3 .container .j_main .main_r .page .p-wrap .p-num {
+  float: left;
+}
+
+#flagshop3 .container .j_main .main_r .page .p-wrap .p-num a {
+  float: left;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  margin-right: 5px;
+  font-size: 14px;
+  display: block;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+#flagshop3 .container .j_main .main_r .page .p-wrap .p-num a.pn-prev, #flagshop3 .container .j_main .main_r .page .p-wrap .p-num a.pn-next {
+  padding: 0 14px;
+  width: 80px;
+}

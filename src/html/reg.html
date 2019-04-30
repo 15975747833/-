@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/res.js"></script>
+</head>
+
+<body>
+    <div id="login">
+        <div id="head">
+            <div class="container clearfix">
+                <div class="logo"></div>
+                <p>已有账号？<a href="../html/login.html">请登录</a>></p>
+            </div>
+        </div>
+        <div id="main">
+            <div class="container">
+                <div class="progress-bar clearfix">
+                    <!-- <div class="pro-step done-step">
+                        注册验证
+                    </div> -->
+                </div>
+                <!--chrome autocomplete off bug hack-->
+                <div class="step2-wrap">
+                    <div class="pro-step done-step">
+                        注册验证
+                    </div>
+                    <div class="form-item form-item-account" id="form-item-account">
+                        <label>用　户　名</label>
+                        <input type="text" id="form-account" name="regName" class="field" autocomplete="off" maxlength="20" placeholder="您的账户名和登录名" default="<i class='i-def'></i>支持中文、英文、数字、“-”、“_”的组合，4-20个字符">
+                    </div>
+                    <div class="input-tip">
+                        <span class="uname_tip"></span>
+                    </div>
+                    <div class="form-item">
+                        <label>设 置 密 码</label>
+                        <input autocomplete="off" type="password" name="pwd" class="field" id="form-psw" maxlength="20" placeholder="建议使用两种或两种以上字符组合" default="<i class='i-def'></i>建议使用字母、数字和符号两种及以上的组合，6-20个字符">
+                        <i class="i-status"></i>
+                        <i class="i-cancel"></i>
+                        <div class="capslock-tip tips"><b class="arrow"></b><b class="arrow-inner"></b></div>
+                    </div>
+                    <div class="input-tip">
+                        <span class="psw_tip"></span>
+                    </div>
+                    <div class="form-item">
+                        <label>确 认 密 码</label>
+                        <input type="password" name="pwdRepeat" id="form-confirm" class="field" placeholder="请再次输入密码" default="<i class='i-def'></i>请再次输入密码">
+                        <div class="capslock-tip tips"><b class="arrow"></b><b class="arrow-inner"></b></div>
+                    </div>
+                    <div class="input-tip">
+                        <span class="confirm_tip"></span>
+                    </div>
+                    <div class="item-email-wrap">
+                        <div class="form-item">
+                            <label>邮 箱 验 证</label>
+                            <input type="text" name="email" id="form-email" class="field" autocomplete="off" maxlength="50" placeholder="请输入邮箱" default="<i class='i-def'></i>验证完成后，你可以使用该邮箱登录">
+                            <i class="i-status"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span class="email_tip"></span>
+                        </div>
+                    </div>
+                    <div class="item-mailcode-wrap">
+                        <div class="form-item form-item-mailcode">
+                            <div class="mailcode-left">
+                                <label>邮箱验证码</label>
+                                <input type="text" name="mailCode" maxlength="6" autocomplete="off" class="field" placeholder="请输入邮箱验证码">
+                            </div>
+                            <button class="yanzheng-btn" type="button">获取验证码</button>
+                            <div class="input-tip">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="input-tip">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="reg-btn"><button class="btn-register">立即注册</button></div>
+                    <div class="input-tip">
+                        <span></span>
+                    </div>
+                    <!--<div class="back-btn" class="back-btn">返回上一步</div>-->
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</body>
+
+</html>

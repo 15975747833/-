@@ -1,0 +1,174 @@
+html,
+body {
+    width: 100%;
+}
+
+#login {
+    width: 100%;
+
+}
+
+#head {
+    border-bottom: 1px solid #ccc;
+
+    .container {
+        // height: 80px;
+        // background: yellow;
+
+        .logo {
+            display: block;
+            width: 300px;
+            height: 60px;
+            background: url('../images/logo.png') no-repeat;
+            margin: 10px;
+            float: left;
+        }
+
+        p {
+            float: right;
+            padding-top: 50px;
+            font-size: 16px;
+            color: #999;
+
+            a {
+                color: red;
+            }
+        }
+
+    }
+}
+
+// -----main------------
+#main {
+
+    .container {
+        height: 800px;
+        // background: pink;
+        // margin: 0 auto;
+
+        .progress-bar {
+            position: relative;
+            margin: 80px auto 0;
+            width: 400px;
+            font-size: 30px;
+            font-weight: bold;
+            color:red;
+            text-align: center;
+            padding-bottom: 30px;
+
+            // .pro-step {
+            //     float: left;
+            //     text-align: center;
+            //     width: 60px;
+            //     height: 55px;
+            //     background: green;
+
+            // }
+
+           
+
+        }
+
+        .step2-wrap {
+            width: 500px;
+            margin: 0 auto;
+            display: block;
+            .pro-step{
+                text-align: left;
+                color:red;
+                font-weight: bold;
+                font-size: 30px;
+                padding: 20px;
+            }
+
+            .form-item {
+                width: 400px;
+                height: 54px;
+                position: relative;
+                border: solid 1px #ddd;
+
+                label {
+                    float: left;
+                    width: 87px;
+                    height: 50px;
+                    line-height: 50px;
+                    padding-left: 20px;
+                }
+
+                .field {
+                    border: 0 none;
+                    font-size: 14px;
+                    width: 230px;
+                    height: 46px;
+                    padding-bottom: 11px;
+                    padding-left: 20px;
+                    padding-top: 16px;
+                }
+
+            }
+
+            .input-tip {
+                // color: #c5c5c5;
+                height: 27px;
+                font-size: 12px;
+                padding-top: 5px;
+                // text-align: center;
+                color:red;
+            }
+
+            .item-mailcode-wrap {
+                .form-item {
+                    .mailcode-left {
+                        position: relative;
+                        float: left;
+                        border: solid 1px #ddd;
+
+                        .field {
+                            width: 191px;
+                        }
+
+                    }
+
+                    .yanzheng-btn {
+                        float: right;
+                        width: 118px;
+                        height: 52px;
+                        border: 1px solid #ddd;
+                        border-left: none;
+                        background: #fff;
+                        color: #333;
+                        padding: 0;
+                    }
+                }
+            }
+
+            .reg-btn {
+                width: 400px;
+                height: 54px;
+
+                .btn-register {
+                    width: 100%;
+                    height: 54px;
+                    line-height: 54px;
+                    text-align: center;
+                    color: #fff;
+                    background: #e2231a;
+                    border: 0;
+                    font-size: 16px;
+
+                }
+
+
+            }
+
+        }
+    }
+}
+
+// -----footer----------
+#footer {
+    .container {
+        height: 86px;
+        background: green;
+    }
+}
